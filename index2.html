@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+ <script  src="myscript.js"> </script>
+ <script src="https://kit.fontawesome.com/0a715e9ed7.js" crossorigin="anonymous"></script>
+ <script>
+   console.warn('This is an error');
+ </script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+  background-color: aqua;
+  overflow-x: hidden;
+
+ background-repeat: no-repeat;
+ background-position: initial;
+ background-size: cover;
+ 
+}
+h4{
+    align-items: center;
+    font-size: large;
+    background: white;
+    text-align: center;
+    font-size: 40px;
+
+}
+   
+
+
+
+
+    
+ul {
+    position: sticky;
+    background: rgba(86, 188, 198, 0.51);
+      justify-content:flex-start;
+       width:100%;
+       height: 50px;
+       display: flex; 
+     border: 2px solid black;
+       margin: 0;
+       padding: 0;
+       font-size: larger;
+    
+    }
+
+    
+li{
+    display: inline-block;
+    
+    box-sizing: border-box;
+    margin-left: 1px;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+
+li a{
+    color: red;
+    text-decoration: none;
+
+}
+
+li:hover{
+    color: rgb(207, 20, 20);
+    transition: 0.2ease;
+    background: white;
+}
+
+div.name{
+    font-size: 70px;
+    color: #b12295;
+    height: 300px;
+    margin: 57px 50px 60px;
+    height: fit-content;
+
+}
+div.container{
+    display: flex;
+    height: fit-content;
+    font-family:fantasy;
+    font-size: 20px;
+    width: 40%;
+    margin: 0px 40px;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+     
+
+div.about{
+ color:aliceblue;
+ font-size: 30px;
+margin: 20px 30px 10px;
+padding: auto;
+
+}
+div.img{
+   display: flex;
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+   
+
+}
+
+
+button{
+    background-color: yellow;
+    font-size: large;
+    padding: 10px;
+    margin-left: 40px;
+    /* align-items: unset; */
+    border-radius: 10px;
+    width: 100px;
+ 
+    
+    
+}
+button:hover{
+    background-color:rgb(242, 105, 21);
+    color: red;
+    cursor: pointer;
+}
+
+
+
+h1{
+    font-size: 34px;
+}
+div.head{
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p{
+  margin-left: 4px;
+
+}
+div.contact{
+
+    width: auto;
+    height: 100px;
+    color: black;
+    /* float: right; */
+    /* position: static; */
+    font-size: 15px;
+    border: 2px solid red;
+    border-radius: 8px;
+    margin: 50px 30px ;
+    padding: 20px;
+    background: darkseagreen;
+    font-style: oblique;
+    justify-content: space-around;
+    
+    
+}
+div.programlo{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* padding-left: 30%; */
+    padding-top: 29px;
+    /* scroll-padding-bottom: 40px; */
+    padding-bottom: 40px;
+   background: #1953b8;
+   margin: 20px 30px;
+}
+div.Lhead{
+   font-size: 20px;
+   width: 100px;
+  
+   color: black;
+   font-weight: bolder;
+  
+   
+   
+}
+div.abc{
+    width: 250px;
+    height: auto;
+    margin: 20px 40px 20px;
+    padding: 20px;
+    background-color: lemonchiffon;
+    border: 2px ridge black;
+
+    
+}
+input
+{
+  padding: 5px;
+  margin-left: 5px;
+  color: black;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+span{
+    width: 100px;
+    transition: width 2s ,height 4s;
+    transition: ease-in;
+}
+
+span:hover{
+   
+    width: 300px;
+    height: 200px;
+  
+  
+} 
+div.w{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    margin: 10 20 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: red;
+    text-align: justify;
+}
+.fd{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    margin: 10 20 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: red;
+    text-align: justify;
+
+}
+div.p{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    margin: 10 20 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: red;
+    text-align: justify;
+}
+
+div.mservice{
+    display: flex;
+    margin: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    font-family: monospace;
+
+}
+p.center{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    justify-content: center;
+}
+div.contac{
+    display: flex;
+    background: aquamarine;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+
+}
+.button2{
+    background-color: #24b819;
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+}
+.button2:hover{
+    background: red;
+    cursor: pointer;
+    color: yellow;
+    align-items: center;
+    justify-content: center;
+}
+.photo{
+    width: 50px;
+}
+.logo{
+    margin: 6px ;
+    padding: 4px;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+
+ <div class="nav"><ul style="list-style-type: none;" >  
+<div class="logo" style="float: right;">PORTFOLIO </div>
+ <li><a href="fvfgg"> Home</a></li>
+
+ <li><a href="nnnmn"> About</a></li>
+ <li><a href="mnnnk" target="_self" div,=""> contact </a></li>
+ <li> <a href="mdbmb">Myservices</a></li>
+ <li><a href="nbmdnbf" style="float: right;">Education</a></li>
+</ul>
+
+ </div>
+
+<div class="header">
+ <div class="name">  Hi I am,<br>
+ <span>Web developer</span>
+  <p> Hire me!</p>
+
+     </div> 
+<br>
+        <div  class="about">About me </div><br>
+     
+         <div class="container">MY name is Aniket Pakhare ,<br>
+I have completed my B.E Computer science degree in the year 2019-23<br>
+I have learned various Skills during my course,
+You can contact from the below links.          
+
+
+
+
+</div> <br>
+
+<div>
+    <button type="button"  > Cv</button>
+    <button type="button"> contact </button>
+ </div>
+</div>
+ <br>
+
+ <h4>MY Skills</h4>
+<div class="programlo">
+    <div  class="Lhead">
+  <p>1.Python  <span><input type="range"></span>    </p>
+  <p>2. Html      <input type="range">          </p>
+  <p>3.CSS   <input type="range"></p>
+  <p>4.Javascript  <input type="range"></p>
+   <p>Version-control:- Github</p>
+
+
+    </div> 
+</div>
+
+<h4>Services</h4>
+<div class="mservice" style="font-size: larger;"> 
+    <div class="w">
+        <p class="center"> WEB DEVELOPMENT</p>
+        A web developer is a programmer who develops World Wide Web applications using a client–server model.
+         The applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming language in the server.
+         HTTP is used for communications between client and server. A web developer may specialize in client-side applications (Front-end web development), server-side applications (back-end development), or both (full-stack development).
+    
+     </div>
+      <div class="p">
+        <p class="center"> Programming</p>
+        They turn the designs created by software developers and engineers into instructions that a computer can follow.
+         In addition, programmers run tests to ensure that newly created applications and software produce the expected results
+      </div>
+    <div class="fd">
+        <p class="center">Front-end Development</p>
+      Creating User-Friendly Websites with the help of Html Css JavaScript<br>
+      I have learned this Front-end technologies within 3-months .
+      I am more ambitious towards Frontend development & i would love to make career in it
+    
+    </div>
+      </div>
+</div>
+
+ 
+
+<!---   Conatact Section -->  
+<h4>Get in touch</h4>
+  <div class="contac" >
+     
+  <div class="abc">     
+    <form action="myphp"> 
+        <label for="name"> Enter name </label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email"> Email</label><br>
+        <input type="email" id="email" name="email" placeholder="yourmail.com"><br>
+        
+        <label for="phone" >Phone no</label><br>
+        <input type="tel" id="phone" name="contact"><br>
+        <label for="mess">message</label>
+        <input type="text" id="mess" namee="mess"><br>
+        <buton type="button" class="button2">Submit</button>
+    </form>    
+</div>
+
+  <div class="contact"> 
+    <i class="fa-sharp fa-solid fa-phone fa-solid " style="color: #1953b8;"></i>
+    7039978898<br>
+    <i class="fa-brands fa-whatsapp fa-solid " style="color : #33c10b;"></i>
+    7039978898<br>
+    <i class="fa-brands fa-instagram fa-solid  " style="color: #d605c4;"></i>
+    aniket_pakhare<br>
+    <i class="fa-solid  fa-envelope fa-lg"> </i>
+    aniketpakhare32@gmail.com<br>
+    <i class="fa-brands fa-linkedin fa-xs"></i>
+    <a href="https://www.linkedin.com/in/aniket-pakhare-26a736250" target="_blank">aniket-pakhare-26a736250</a>
+  </div>
+  </div>
+  <footer>
+    <h3 style="text-align: center;"> Copyrights at HTML CSS JavaScript</h3>
+  </footer>
+  
+
+
+    
+</body>
+</html>
